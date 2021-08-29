@@ -1,3 +1,15 @@
+simply clone this repo and 
+open with your vscode and then goto project directory by write
+cd billing-project and then
+run npm install and wait ultill npm installing
+after succesfully install write npm start
+
+and go to webbrowser and seacrh localhost:3000/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

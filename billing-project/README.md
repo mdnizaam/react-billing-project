@@ -1,3 +1,18 @@
+![Screenshot (63)](https://user-images.githubusercontent.com/73129284/131278463-bf4fc633-35e4-4000-af12-76f709814314.png)
+![Screenshot (64)](https://user-images.githubusercontent.com/73129284/131278468-506b05ba-60a7-484f-91a7-40ac51435dd3.png)
+![Screenshot (65)](https://user-images.githubusercontent.com/73129284/131278471-ebb0ecdc-9cfa-4343-b973-b2f55e84274e.png)
+simply clone this repo and 
+open with your vscode and then goto project directory by write
+cd billing-project and then
+run npm install and wait ultill npm installing
+after succesfully install write npm start
+
+and go to webbrowser and seacrh localhost:3000/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

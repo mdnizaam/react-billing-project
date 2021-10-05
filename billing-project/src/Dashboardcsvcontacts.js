@@ -10,6 +10,8 @@ import { NavLink } from 'react-router-dom'
 import AddBoxIcon from '@material-ui/icons/AddBox';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import CloudUploadOutlinedIcon from '@material-ui/icons/CloudUploadOutlined';
+import { reactLocalStorage } from 'reactjs-localstorage';
+
 
 
 function Dashboardcsvcontacts() {
@@ -52,7 +54,14 @@ const Additem=()=>{
 </div>};
     let arr=contact.concat(nObj);
     setContact(arr);
+    reactLocalStorage.setObject("nObj",nObj);
+   
+   console.log(obj);
+    // console.log(nObj)
+
+
 }
+var obj= reactLocalStorage.getObject("nObj");
 
 
 
@@ -160,6 +169,7 @@ const Additem=()=>{
                                     <div className="textmenu1" style={{ display: `${sidemenu1}` }}>
                                         <p className="text-white text-center mait my-2 ">MAITRETECH</p>
                                         <p className="text-center text-white">maitretechsolution@gmail.com</p>
+                                        
 
                                     </div>
                                 </div>
